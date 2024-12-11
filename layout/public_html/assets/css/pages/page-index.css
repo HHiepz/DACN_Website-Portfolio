@@ -1,1 +1,101 @@
-/*  */
+/* Short */
+.short-info {
+    padding: 1.5rem 3rem;
+    background-color: var(--md-sys-color-surface-container-lowest);
+    border-radius: 0 0 0.75rem 0.75rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1),
+        4px 0 24px rgba(0, 0, 0, 0.1);
+}
+
+.short-info h1 {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: var(--md-sys-color-on-surface);
+}
+
+.short-info p {
+    font-size: 0.875rem;
+    margin: 0;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Section */
+.section__title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--md-sys-color-on-surface);
+    margin-bottom: 0.375rem;
+}
+
+.section__description {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--md-sys-color-on-surface);
+    margin-bottom: 1.5rem;
+}
+
+.section__card {
+    color: var(--md-sys-color-on-surface);
+}
+
+.section__card--type {
+    margin-top: 0.75rem;
+    font-weight: 500;
+}
+
+.section__card--title {
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section__card--text {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.section__card--tags {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 5px;
+}
+
+.section__more {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+/* Products & Social & Map*/
+.products,
+.social,
+.map {
+    margin: 4rem 0;
+    padding: 3rem 0;
+}
+
+/* Skills */
+.skills {
+    background-color: var(--md-sys-color-surface-container-lowest);
+    color: var(--md-sys-color-on-background);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1),
+        4px 0 12px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.skill__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skill__item--text {
+    display: inline-block;
+    font-size: 1.375rem;
+    font-weight: 500;
+}
