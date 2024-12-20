@@ -77,7 +77,6 @@
     padding: 8px 0;
 }
 
-
 .sidebar_skill--title {
     margin: 0;
     padding-bottom: 4px;
@@ -85,4 +84,27 @@
 
 .sidebar_skill--details {
     margin: 0;
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    #wrapper {
+        flex-direction: column;
+    }
+
+    #sidebar-container {
+        width: 100%;
+        position: relative;
+        min-height: auto;
+        height: auto;
+        margin-bottom: 24px;
+    }
+
+    #sidebar {
+        width: 100%;
+        height: auto;
+    }
 }
