@@ -64,3 +64,7 @@
 .section__card--fillter {
     margin-bottom: 3rem;
 }
+
+.section__card--fillter button {
+    font-size: 0.875rem;
+}
